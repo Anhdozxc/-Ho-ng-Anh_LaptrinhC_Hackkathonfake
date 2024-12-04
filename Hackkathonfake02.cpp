@@ -52,7 +52,6 @@ int main() {
                             product *= arr[i][m-1];
                         }
                     }
-
                     for (int j = 1; j < m - 1; j++) {
                         printf("%d ", arr[0][j]); 
                         product *= arr[0][j];
@@ -61,7 +60,6 @@ int main() {
                             product *= arr[n-1][j];
                         }
                     }
-
                     printf("\nTich cac phan tu tren duong bien: %d\n", product);
                 }
                 break;
@@ -91,7 +89,6 @@ int main() {
                             }
                         }
                     }
-
                     printf("Duong cheo chinh sau khi sap xep:\n");
                     for (int i = 0; i < n && i < m; i++) {
                         printf("%d ", arr[i][i]);
@@ -112,7 +109,7 @@ int main() {
                             }
                         }
                     }
-                    if (!found) {
+                    if (!found) { // Phu dinh cua found
                         printf("Phan tu %d khong co trong mang.\n", x);
                     }
                 }
@@ -124,9 +121,9 @@ int main() {
                 printf("Ban chon khong hop le, hay thu lai.\n");
         }
     }
-
     return 0;
 }
+
 
 
 
